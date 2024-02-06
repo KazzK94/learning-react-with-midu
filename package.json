@@ -1,0 +1,33 @@
+{
+	"devDependencies": {
+		"standard": "^17.1.0"
+	},
+	"eslintConfig": {
+		"extends": "./node_modules/standard/eslintrc.json",
+		"rules": {
+			"no-tabs": "off",
+			"indent": [
+				"error",
+				"tab"
+			],
+			"react/jsx-indent": [
+				"error",
+				"tab"
+			],
+			"react/jsx-indent-props": [
+				"error",
+				"tab"
+			],
+			"no-multiple-empty-lines": [
+				"error",
+				{
+					"max": 2,
+					"maxBOF": 1,
+					"maxEOF": 0
+				}
+			],
+			"space-before-function-paren": "off",
+			"padded-blocks": "off"
+		}
+	}
+}

@@ -1,0 +1,43 @@
+:root {
+	scrollbar-gutter: stable;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: clamp(200px, 90%, 1600px);
+	margin: 0 auto;
+}
+
+header, main, form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header {
+	max-width: clamp(300px, 80%, 1200px);
+	margin: auto;
+}
+
+main {
+	margin-top: 1rem;
+}
+
+form, form * {
+	width: 100%;
+	margin: 4px auto 0;
+}
+
+.no-movies {
+	color: #ddd;
+	font-style: italic;
+	background-color: #8444;
+	margin: 12px auto;
+	padding: 12px 24px;
+	border-radius: 24px;
+	border: 1px solid #777;
+	text-align: center;
+}

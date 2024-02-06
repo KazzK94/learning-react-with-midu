@@ -1,0 +1,19 @@
+
+:root {
+	background-color: black;
+	color: #ddd;
+}
+
+body {
+	width: clamp(300px, 90%, 1920px);
+	margin: auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}

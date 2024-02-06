@@ -1,0 +1,14 @@
+
+.tile {
+	border: 2px solid darkblue;
+	width: 2rem;
+	height: 2rem;
+}
+
+.filled {
+	background-color: #FFC436;
+}
+
+.empty {
+	background-color: #6666;
+}

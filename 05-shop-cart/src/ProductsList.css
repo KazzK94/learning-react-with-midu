@@ -1,0 +1,42 @@
+ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1em;
+}
+
+ul li {
+	text-align: center;
+	border-radius: 1rem;
+	background-color: #111;
+	padding: 1rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+ul li h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul li img {
+	border-radius: 0.4em;
+	width: 100%;
+	aspect-ratio: 16/9;
+	display: block;
+	object-fit: cover;
+}
+
+ul li button {
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	font-size: 1.2em;
+	border-radius: 0.2em;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
+ul li button:hover {
+	background-color: #4445;
+}

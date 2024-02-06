@@ -1,0 +1,20 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a, a:visited {
+	font-weight: 500;
+	color: #06c;
+	text-decoration: inherit;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #08f;
+}
+
+body {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+}

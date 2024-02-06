@@ -1,0 +1,38 @@
+.card {
+	width: 8rem;
+	height: 10rem;
+	color: black;
+	font-size: 1.3rem;
+	line-height: 1.25rem;
+	font-weight: bold;
+	position: relative;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+	opacity: 0.6;
+	transition: background-color 200ms ease-in-out;
+}
+
+.card.selected {
+	opacity: 1;
+}
+
+.card span {
+	position: absolute;
+}
+
+.topNumber {
+	top: var(--card-padding);
+}
+
+.rightNumber {
+	right: var(--card-padding);
+}
+
+.bottomNumber {
+	bottom: var(--card-padding);
+}
+
+.leftNumber {
+	left: var(--card-padding);
+}
