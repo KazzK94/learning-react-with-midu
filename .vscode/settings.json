@@ -8,6 +8,6 @@
 		"**/Thumbs.db": true,
 		"**-lock.json": true,
 		"node_modules": false,
-		"**/node_modules": true
+		"**/node_modules": false
 	}
 }
